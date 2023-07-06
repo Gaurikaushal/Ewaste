@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Ewaste</string>
+    <string name="started_sub_title">
+        Nice to meet you, come join our community!
+        <br><b>Login</b>if you already have an account</br>
+        <br><b>Register</b>to get started</br>
+
+
+
+    </string>
+    <string name="re_wired">Re-Wired</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="reimagine_recycle_revolutionize_your_e_waste_journey_starts_here">\'Reimagine,Recycle,Revolutionize your E-waste journey starts here\'</string>
+
+    <string name="enter_your_credentials_to_continue">Enter your credentials to continue</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <string name="login_havent_account">
+        I don\'t have an account
+        <font color="#08410D"><b>Register</b></font>
+
+    </string>
+    <string name="register_have_account">
+        I have an account
+        <font color="#08410D"><b>Login</b></font>
+  </string>
+    <string name="login">LogIn</string>
+    <string name="register">Register</string>
+    <string name="home_sub_title">Welcome to home</string>
+    <string name="home_title">Hello there</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

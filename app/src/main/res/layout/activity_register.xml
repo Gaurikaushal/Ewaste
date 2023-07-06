@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightgreen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/darkgreen"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Register to get started."
+            android:textColor="@color/darkgreen"
+            android:textSize="25sp"
+            tools:ignore="TextSizeCheck" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="150dp"
+                android:alpha="0.2"
+                android:src="@drawable/logo_design"
+                android:importantForAccessibility="no" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="0dp">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/edit_bg"
+                    android:hint="@string/email"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/darkgreen"
+                    android:textSize="22sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="TextFields,VisualLintTextFieldSize" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:hint="Username"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:padding="10dp"
+                    android:textColorHint="@color/darkgreen"
+                    android:textSize="22sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:hint="Password"
+                    android:drawableStart="@drawable/baseline_vpn_key_24"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:padding="10dp"
+                    android:textColorHint="@color/darkgreen"
+                    android:textSize="22sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="TextFields,VisualLintTextFieldSize" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:hint="Confirm Password"
+                    android:drawableStart="@drawable/baseline_vpn_key_off_24"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:padding="10dp"
+                    android:textColorHint="@color/darkgreen"
+                    android:textSize="22sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:id="@+id/btn_register"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="350dp"
+                android:backgroundTint="@color/darkgreen"
+                android:textColor="@color/white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="450dp">
+
+
+
+                <TextView
+                    android:id="@+id/tv_have_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_have_account"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

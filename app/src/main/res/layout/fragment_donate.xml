@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DonateFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="434dp"
+        android:alpha="0.2"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_design"
+        tools:ignore="ImageContrastCheck" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/darkgreen"
+            android:text="Donate"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal details"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="138dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/CreditEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Credit card"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:minHeight="48dp"
+            android:textColorHint="@color/darkgreen"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="414dp"
+            android:importantForAutofill="no" />
+
+
+        <EditText
+            android:id="@+id/RupayEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Rupay card"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/darkgreen"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="475dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment method"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="358dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/UpiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Upi"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/darkgreen"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="544dp" />
+
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Name"
+            android:paddingLeft="20dp"
+            android:minHeight="48dp"
+            android:textColorHint="@color/darkgreen"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="207dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+
+            android:id="@+id/emailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Email address"
+            android:textColorHint="@color/darkgreen"
+            android:paddingLeft="20dp"
+            android:background="@drawable/edit_bg"
+            android:minHeight="48dp"
+            tools:ignore="MissingConstraints,TextContrastCheck,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="276dp"
+            android:importantForAutofill="no" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

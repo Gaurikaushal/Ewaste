@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LogDeviceFragment">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="434dp"
+        android:alpha="0.2"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_design"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/darkgreen"
+            android:text="Log a Device"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="135dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:hint="Name"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:textColorHint="@color/darkgreen"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="email address"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:textColorHint="@color/darkgreen"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            tools:ignore="MissingConstraints,TextFields,TextContrastCheck,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <EditText
+            android:id="@+id/ContactEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:textColorHint="@color/darkgreen"
+            android:importantForAutofill="no"
+            tools:ignore="MissingConstraints,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device Details"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="380dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/deviceEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Device category"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:textColorHint="@color/darkgreen"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <EditText
+            android:id="@+id/ModelEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Model number"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+
+            android:textColorHint="@color/darkgreen"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <EditText
+            android:id="@+id/CompanyEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Company name"
+            android:importantForAutofill="no"
+            android:padding="10dp"
+            android:textColorHint="@color/darkgreen"
+            tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
