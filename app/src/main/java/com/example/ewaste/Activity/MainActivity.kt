@@ -3,6 +3,8 @@ package com.example.ewaste.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.Button
+import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
@@ -26,5 +28,8 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.mainContainer)
         NavigationUI.setupWithNavController(binding.bottomNavigationView, navController)
 
-    }
+        }
+
+
+
 }

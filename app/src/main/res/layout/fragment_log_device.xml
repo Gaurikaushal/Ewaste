@@ -17,19 +17,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
         <Button
             android:layout_width="252dp"
             android:layout_height="64dp"
-            android:backgroundTint="@color/darkgreen"
-            android:text="Log a Device"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:backgroundTint="@color/darkgreen"
+            android:text="Log a Device"
             android:textAlignment="center"
             android:textColor="@color/white"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="79dp"
             tools:layout_editor_absoluteY="48dp" />
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -142,6 +142,16 @@
             tools:ignore="MissingConstraints,TextFields,VisualLintTextFieldSize,TouchTargetSizeCheck"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="554dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/proceed"
+            android:id="@+id/btn_proceed"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/darkgreen"
+            android:textColor="@color/white" />
 
 
 
